@@ -10,6 +10,10 @@ body {
 
 }
 
+article {
+    width: 900px;
+}
+
 	font-size:80pt;
 	text-align: center;
 	margin-top:100px;
