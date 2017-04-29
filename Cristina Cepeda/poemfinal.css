@@ -1,0 +1,47 @@
+html, body { width: 100%; height: 100%; background-color: #220F7B; }
+
+@font-face {
+  font-family: 'Helvetica', sans-serif;
+	src: url(https://fonts.googleapis.com/css?family=Sansita); }
+
+
+h1 { font: normal 55px "Futura", sans-serif; text-align: center; margin: 110px; color: white; }
+p,.lastp p,.gone p { font: normal 35px "Futura", sans-serif; margin: 12px; color: white; letter-spacing: 0.5pt; }
+
+* { text-align:justify; }
+#container { margin-left: 100px; margin-right: 100px; margin-bottom: 100px; }
+
+p>span { color: red; }
+
+#first~p { color: black }
+
+.gone~p { color: white; }
+.gone p { color: white; }
+.gone p:hover {font-size: 40px;}
+.gone p {color: pink;}
+
+.kontainer p {color: #47EAF3;}
+.kontainer p:hover {font-size: 40px;}
+
+.lastp p { color: yellow; }
+
+.first1 p {font-size: 35px;}
+.first1 p {color: pink;}
+.first1 p:hover {font-weight: bolder;}
+.first1 p:hover {font-size: 40px;}
+
+
+.secondlast p {color: #47EAF3;}
+.secondlast p:hover {font-size: 40px;}
+
+
+
+.lastp p:hover { font-size: 40px; }
+.lastp p:active { font-size: 70px; }
+
+.gone p::selection { color: #220F7B; }
+p::first-line { background: #220F7B; }
+
+.header h1 {font-size: 80px;}
+
+#first p:focus { color: pink; }

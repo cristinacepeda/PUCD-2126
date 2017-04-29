@@ -1,0 +1,31 @@
+<style>
+
+body {
+text-align: center;
+}
+
+.flex-container1 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    width: 600px;
+    height: auto;
+    background-color: #000000;
+}
+.flex-container2 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    width: 600px;
+    height: auto;
+    background-color: #000000;
+}
+.flex-item {
+    background-color: #ffffff;
+    width: 550px;
+    height: auto;
+    margin: 10px;
+}
+</style>
